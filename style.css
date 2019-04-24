@@ -1,3 +1,67 @@
 body {
-  font: luscida;
+  background: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/02/darth-vader-5160.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 160%;
+}
+.button {
+  background-color: rgb(255, 0, 0);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20pt;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  bottom: 10%;
+}
+img {
+  float: right;
+  width: 25%;
+  margin-right: 10%;
+}
+.victim {
+  margin: 0 auto;
+  width: 100%;
+}
+.victim:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
