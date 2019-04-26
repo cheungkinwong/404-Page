@@ -97,6 +97,7 @@ img {
   backface-visibility: hidden;
   perspective: 1000px;
   animation-iteration-count: infinite;
+  position: relative;
 }
 
 @keyframes shake {
